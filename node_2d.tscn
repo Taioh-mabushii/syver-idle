@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3 uid="uid://cy78ay34txnil"]
+
+[ext_resource type="Script" path="res://Scenes/States/state_manager.gd" id="1_vvuyx"]
+[ext_resource type="Script" path="res://Scenes/States/mainmenustate.gd" id="2_c4by2"]
+[ext_resource type="Texture2D" uid="uid://e42pw2g3vx2p" path="res://assets/titlescreenbutshitty.png" id="3_e2mo6"]
+
+[node name="Game" type="Node2D"]
+
+[node name="StateManager" type="Node" parent="."]
+script = ExtResource("1_vvuyx")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_c4by2")
+
+[node name="Background" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = -57.0
+offset_top = -14.0
+offset_right = 1223.0
+offset_bottom = 706.0
+texture = ExtResource("3_e2mo6")
+stretch_mode = 5
+
+[node name="Start Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 77.0
+offset_top = 525.0
+offset_right = 168.0
+offset_bottom = 556.0
+text = "Get Muffin"
