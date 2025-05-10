@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1746758836
+icon.svg::CompressedTexture2D::5406841605963161159::1745523195::1745523204::1::::<><>::
+node_2d.tscn::PackedScene::6525438668749049559::1746506287::0::1::::<><>::res://Scenes/States/state_manager.gd<>res://Scenes/States/mainmenustate.gd<>uid://e42pw2g3vx2p::::res://assets/titlescreenbutshitty.png
+::res://assets/::1746506266
+PlaceholderMain.png::CompressedTexture2D::1827674576723009403::1746506265::1746506266::1::::<><>::
+titlescreenbutshitty.png::CompressedTexture2D::342289672667436265::1745694696::1745694696::1::::<><>::
+::res://Scenes/::1745691697
+::res://Scenes/States/::1746505278
+basestate.gd::GDScript::-1::1745798759::0::1::::BaseState<>Node<>::
+gamestate.tscn::PackedScene::3625793951626055471::1745691567::0::1::::<><>::
+mainmenustate.gd::GDScript::-1::1745691544::0::1::::<>BaseState<>::
+StartButton.gd::GDScript::-1::1746505278::0::1::::<>Node<>::
+state_manager.gd::GDScript::-1::1745691291::0::1::::StateManager<>Node<>::
+::res://scripts/::1746506232
+playerdata.gd::GDScript::-1::1746506232::0::1::::<>Node<>::
