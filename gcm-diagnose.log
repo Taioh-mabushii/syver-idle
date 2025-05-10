@@ -1,0 +1,192 @@
+﻿Diagnose log at 2025-05-09T03:18:02Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.0+3c28096588f549cb46f36b552390514356830abe
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\raxha
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-VU71VS9
+GIT_TRACE2_PARENT_SID=791e12f9-6849-491f-b324-0155dd056b81
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\raxha\OneDrive
+ChocolateyLastPathUpdate=133786798099313828
+SESSIONNAME=Console
+TMP=C:\Users\raxha\AppData\Local\Temp
+PROCESSOR_REVISION=0802
+USERDOMAIN=DESKTOP-VU71VS9
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\raxha\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\raxha\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+COLORTERM=truecolor
+OculusBase=C:\Program Files\Oculus\
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\raxha\bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Ruby33-x64\bin;C:\Users\raxha\AppData\Local\Programs\Python\Launcher\;C:\Users\raxha\AppData\Local\Microsoft\WindowsApps;C:\Users\raxha\AppData\Roaming\npm;C:\Users\raxha\AppData\Local\GitHubDesktop\bin;C:\Program Files\Markdown Monster;C:\Users\raxha\AppData\Local\Programs\Microsoft VS Code\bin
+PROCESSOR_LEVEL=23
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
+TMPDIR=C:\Users\raxha\AppData\Local\Temp
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=12
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ChocolateyInstall=C:\ProgramData\chocolatey
+ProgramW6432=C:\Program Files
+HOME=C:\Users\raxha
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\DESKTOP-VU71VS9
+USERPROFILE=C:\Users\raxha
+SystemRoot=C:\WINDOWS
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-VU71VS9
+APPDATA=C:\Users\raxha\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=raxha
+PROCESSOR_ARCHITEW6432=AMD64
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\raxha\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\raxha\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\raxha\AppData\Local\Temp\cc304af08addf09742d2ad3d'... OK
+Reading from temporary file 'C:\Users\raxha\AppData\Local\Temp\cc304af08addf09742d2ad3d'... OK
+Deleting temporary file 'C:\Users\raxha\AppData\Local\Temp\cc304af08addf09742d2ad3d'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\raxha
+UserDataDirectoryPath: C:\Users\raxha\.gcm
+GetCurrentDirectory(): G:\Godot Projects\idle-project
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:64030/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.47.1.windows.1'
+Locating current repository...Git repository at 'G:/Godot Projects/idle-project/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/raxha/.gitconfig	http.postbuffer=524288000
+file:C:/Users/raxha/.gitconfig	core.compression=0
+file:C:/Users/raxha/.gitconfig	core.packedgitlimit=2g
+file:C:/Users/raxha/.gitconfig	core.packedgitopenfiles=8192
+file:C:/Users/raxha/.gitconfig	core.streamfilethreshold=2048m
+file:C:/Users/raxha/.gitconfig	core.deltabasecachelimit=50m
+file:C:/Users/raxha/.gitconfig	pack.bigfilethreshold=20m
+file:C:/Users/raxha/.gitconfig	pack.indexversion=2
+file:C:/Users/raxha/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/raxha/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/raxha/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/raxha/.gitconfig	filter.lfs.required=true
+file:C:/Users/raxha/.gitconfig	user.name=TheElderDragonDad
+file:C:/Users/raxha/.gitconfig	user.email=theelderdragondad@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Taioh-mabushii/syver-idle.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\raxha\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\raxha\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
